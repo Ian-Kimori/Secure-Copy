@@ -28,13 +28,13 @@ scp  SOURCE  DESTINATION
 
 ```bash
 # Single file
-scp leo_audit@10.184.38.151:/home/leo_audit/subnets/results.txt ~/Desktop/
+scp leo_audit@10.10.10.10:/home/leo_audit/subnets/results.txt ~/Desktop/
 
 # Multiple files at once
-scp leo_audit@10.184.38.151:/home/leo_audit/subnets/{results.txt,nmap_scan.txt} ~/Desktop/
+scp leo_audit@10.10.10.10:/home/leo_audit/subnets/{results.txt,nmap_scan.txt} ~/Desktop/
 
 # Entire directory
-scp -r leo_audit@10.184.38.151:/home/leo_audit/subnets/ ~/Desktop/
+scp -r leo_audit@10.10.10.10:/home/leo_audit/subnets/ ~/Desktop/
 ```
 
 ---
@@ -45,13 +45,13 @@ scp -r leo_audit@10.184.38.151:/home/leo_audit/subnets/ ~/Desktop/
 
 ```powershell
 # Single file
-scp leo_audit@10.184.38.151:/home/leo_audit/subnets/results.txt C:\Users\YourUser\Desktop\
+scp leo_audit@10.10.10.10:/home/leo_audit/subnets/results.txt C:\Users\YourUser\Desktop\
 
 # Multiple files
-scp leo_audit@10.184.38.151:/home/leo_audit/subnets/{results.txt,nmap_scan.txt} C:\Users\YourUser\Desktop\
+scp leo_audit@10.10.10.10:/home/leo_audit/subnets/{results.txt,nmap_scan.txt} C:\Users\YourUser\Desktop\
 
 # Entire directory
-scp -r leo_audit@10.184.38.151:/home/leo_audit/subnets/ C:\Users\YourUser\Desktop\
+scp -r leo_audit@10.10.10.10:/home/leo_audit/subnets/ C:\Users\YourUser\Desktop\
 ```
 
 ---
